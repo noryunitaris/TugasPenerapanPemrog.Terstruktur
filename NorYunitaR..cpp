@@ -32,4 +32,19 @@ int main(){
 				  RWa2c[0]+RWa2c[1]+RWa2c[2]+RWa2c[3]+RWa2c[4],
 				  RWa3c[0]+RWa3c[1]+RWa3c[2]+RWa3c[3]+RWa3c[4]};
 	
+	cout << "MATRIX X: "<< endl;
+	
+	int r=0;
+		do{
+			cout << a1c[r]<< " | "; r++;}
+		while (r<5);cout << endl;
+	int s=0;
+		do{
+			cout << a2c[s]<< " | "; s++;}
+		while (s<5);cout << endl;
+	int t=0;
+		do{
+			cout << a3c[t]<< " | "; t++;}
+		while (t<5);cout << endl;
+	
 }
